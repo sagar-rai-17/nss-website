@@ -23,7 +23,7 @@ export default function Footer() {
     <footer 
       id="contact" 
       // Background updated to match solid Deep Navy Theme
-      className="relative bg-[#112240] text-white pt-16 pb-8 px-6 sm:px-12 md:px-24 overflow-hidden border-t border-white/10"
+      className="relative bg-[#3c1053] text-white pt-16 pb-8 px-6 sm:px-12 md:px-24 overflow-hidden border-t border-white/10"
     >
       <div className="max-w-[1360px] mx-auto relative z-10 w-full">
         
@@ -36,7 +36,7 @@ export default function Footer() {
             {/* Logo and Brand Title */}
             <div className="flex items-center space-x-3.5">
               <img 
-                src="/images/nss-logo.jpg" 
+                src="/images/nss-logo.png" 
                 alt="NSS Logo" 
                 className="h-12 w-12 object-contain" 
               />
@@ -52,12 +52,16 @@ export default function Footer() {
                 <div className="h-5 w-[3px] bg-white/40 rounded-full" />
                 <h2 className="text-base font-bold text-white uppercase tracking-wider">Contact Us</h2>
               </div>
-              <p className="text-white/90 text-sm leading-relaxed font-sans font-medium pl-4">
-                NSS Office,<br />
-                2nd floor, Multi Activity Centre,<br />
-                IIT Roorkee, Roorkee-247667<br />
-                Uttarakhand, IN
-              </p>
+              <div className="text-white/90 text-sm leading-relaxed font-sans font-medium pl-4 space-y-1">
+                <p>NSS Office,</p>
+                <p>2nd floor, Multi Activity Centre,</p>
+                <p>IIT Roorkee, Roorkee-247667</p>
+                <p>Uttarakhand, IN</p>
+                {/* Clickable Email Link Integrated */}
+                <p className="pt-2 text-xs text-white/75 font-semibold">
+                  Email: <a href="mailto:nss@iitr.ac.in" className="underline hover:text-white transition-colors">nss@iitr.ac.in</a>
+                </p>
+              </div>
             </div>
 
           </div>
