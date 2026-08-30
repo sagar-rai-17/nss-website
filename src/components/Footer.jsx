@@ -23,7 +23,7 @@ export default function Footer() {
     <footer 
       id="contact" 
       // Background updated to match solid Deep Navy Theme
-      className="relative bg-[#3c1053] text-white pt-16 pb-8 px-6 sm:px-12 md:px-24 overflow-hidden border-t border-white/10"
+      className="relative bg-[#112240] text-white pt-16 pb-8 px-6 sm:px-12 md:px-24 overflow-hidden border-t border-white/10"
     >
       <div className="max-w-[1360px] mx-auto relative z-10 w-full">
         
