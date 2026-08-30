@@ -36,7 +36,7 @@ export default function Footer() {
             {/* Logo and Brand Title */}
             <div className="flex items-center space-x-3.5">
               <img 
-                src="/images/nss-logo.png" 
+                src="/images/nss-logo.jpg" 
                 alt="NSS Logo" 
                 className="h-12 w-12 object-contain" 
               />
