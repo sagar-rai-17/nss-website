@@ -43,7 +43,8 @@ export default function TeamsPage() {
           { name: "Neeraj Meena", role: "Event Cell Secy", branch: "Civil 3Y", mail: "neeraj_m@ce.iitr.ac.in", linkedin: "https://www.linkedin.com/in/neeraj-meena-52a353297", phone: "8955725370", image: "Neeraj.jpg" },
           { name: "Vaibhav Sharma", role: "Marketing Cell Secy", branch: "Physics 3Y", mail: "vaibhav_s2@ph.iitr.ac.in", linkedin: "https://www.linkedin.com/in/vaibhav-sharma05a2", phone: "9569672796", image: "Vaibhav_Marketing & Promotions.jpg" },
           { name: "Kaustubh Singh", role: "Documentation Cell Secy", branch: "Meta 3Y", mail: "kaustubh_s@mt.iitr.ac.in", linkedin: "https://www.linkedin.com/in/kaustubh-singh-2a2599332", phone: "7880452310", image: "Kaustubh_Documentation.jpg" },
-          { name: "Anshul Verma", role: "Logistics Cell Secy", branch: "Chemical 3Y", mail: "anshul_v@ch.iitr.ac.in", linkedin: "https://www.linkedin.com/in/anshulverma07", phone: "7388465197", image: "anshul_hospitality&logistics.jpg" }
+          { name: "Anshul Verma", role: "Logistics Cell Secy", branch: "Chemical 3Y", mail: "anshul_v@ch.iitr.ac.in", linkedin: "https://www.linkedin.com/in/anshulverma07", phone: "7388465197", image: "anshul_hospitality&logistics.jpg" },
+          { name: "Mudassir Ansari", role: "Reports & Doc Cell Secy", branch: "Chemical Sciences 3Y", mail: "Mudassir_a@cy.iitr.ac.in", linkedin: "https://www.linkedin.com/in/mudassir-ansari-801475334", phone: "7905623439", image: "ansari.jpg" }
         ]
       },
       {
