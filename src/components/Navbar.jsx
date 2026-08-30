@@ -70,10 +70,9 @@ export default function Navbar() {
           <Link to="/attendance" onClick={() => setIsMobileMenuOpen(false)} className="text-white/80 hover:text-[#d32f2f] text-lg font-semibold uppercase tracking-wider">Attendance</Link>
           <Link to="/cells" onClick={() => setIsMobileMenuOpen(false)} className="text-white/80 hover:text-[#d32f2f] text-lg font-semibold uppercase tracking-wider">Cells</Link>
           <Link to="/about" onClick={() => setIsMobileMenuOpen(false)} className="text-white/80 hover:text-[#d32f2f] text-lg font-semibold uppercase tracking-wider">About</Link>
-          <a href="/#events" onClick={() => setIsMobileMenuOpen(false)} className="text-white/80 hover:text-[#d32f2f] text-lg font-semibold uppercase tracking-wider">Events</a>
+          <Link to="/events" onClick={() => setIsMobileMenuOpen(false)} className="text-white/80 hover:text-[#d32f2f] text-lg font-semibold uppercase tracking-wider">Events</Link>
           <Link to="/teams" onClick={() => setIsMobileMenuOpen(false)} className="text-white/80 hover:text-[#d32f2f] text-lg font-semibold uppercase tracking-wider">Teams</Link>
           <Link to="/social-summit" onClick={() => setIsMobileMenuOpen(false)} className="bg-[#d32f2f] hover:bg-[#b71c1c] text-white px-10 py-3 rounded-full font-bold text-sm uppercase tracking-widest mt-6">Social Summit</Link>
-          <Link to="/events" onClick={() => setIsMobileMenuOpen(false)} className="text-white/80 hover:text-[#d32f2f] text-lg font-semibold uppercase tracking-wider">Events</Link>
         </div>
       )}
     </header>
