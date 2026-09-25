@@ -20,8 +20,8 @@ export default function Navbar() {
             />
           </div>
           <div className="text-white leading-tight">
-            <span className="block text-[11px] font-semibold tracking-widest uppercase leading-none text-gray-200">National Service Scheme</span>
-            <h1 className="block text-2xl font-black tracking-wider uppercase mt-1 leading-none text-white">IIT ROORKEE</h1>
+            <span className="block text-[11px] font-semibold tracking-widest uppercase leading-none text-red-800">National Service Scheme</span>
+            <h1 className="block text-2xl font-black tracking-wider uppercase mt-1 leading-none text-red-800">IIT ROORKEE</h1>
           </div>
         </Link>
 
