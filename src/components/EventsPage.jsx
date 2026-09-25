@@ -6,7 +6,8 @@ import React from 'react';
 const events = [
   {
     title: "NSS Intro Talk",
-    date: "Upcoming",
+    date: "29th Sept, 2026",
+    venue:"Mac Audi",
     desc: "Fostering civic responsibility, community engagement, and empathetic leadership among first-year students through an introductory talk designed to outline club goals, initiatives, and work life.",
     image: "intro.jpg",
     isUpcoming: true,
