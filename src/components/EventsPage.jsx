@@ -5,11 +5,18 @@ import React from 'react';
 // =========================================================================
 const events = [
   {
-    title: "Essay Writing Competition",
+    title: "NSS Intro Talk",
     date: "Upcoming",
+    desc: "Fostering civic responsibility, community engagement, and empathetic leadership among first-year students through an introductory talk designed to outline club goals, initiatives, and work life.",
+    image: "intro.jpg",
+    isUpcoming: true,
+    vertical: "Central Events"
+  },
+  {
+    title: "Essay Writing Competition",
     desc: "Encouraging literary expression, creative vocabulary, and critical writing skills among school students through themed essay challenges designed to spark independent thought and structure.",
     image: "essay.jpg",
-    isUpcoming: true,
+    isUpcoming: false,
     vertical: "Education"
   },
   {
