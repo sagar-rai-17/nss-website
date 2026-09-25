@@ -108,8 +108,11 @@ export default function EventsPage() {
                     <span className="text-xs font-bold text-[#d32f2f] uppercase tracking-widest font-['Verdana']">Upcoming • {ev.vertical}</span>
                     <h3 className="text-2xl md:text-3xl font-black text-[#0b192c] uppercase tracking-wide leading-tight">{ev.title}</h3>
                     <p className="text-slate-500 text-sm md:text-base leading-relaxed">{ev.desc}</p>
-                    <div className="pt-4 flex items-center space-x-3 text-xs font-bold text-slate-400">
-                      <span>📅 {ev.date}</span>
+                    
+                    {/* Render Date and Venue side-by-side using flexbox */}
+                    <div className="pt-4 flex flex-wrap items-center gap-4 text-xs font-bold text-slate-400">
+                      <span className="flex items-center gap-1.5">📅 {ev.date}</span>
+                      {ev.venue && <span className="flex items-center gap-1.5">📍 {ev.venue}</span>}
                     </div>
                   </div>
                 </div>
@@ -118,7 +121,7 @@ export default function EventsPage() {
           </div>
         )}
 
-        {/* --- SECTION 2: PAST EVENTS (3-Column Grid - Dates Removed) --- */}
+        {/* --- SECTION 2: PAST EVENTS (3-Column Grid) --- */}
         <div>
           <div className="text-left mb-12 pl-4">
             <span className="text-slate-400 font-bold text-xs uppercase tracking-[0.2em] block mb-3 font-sans">Archives</span>
@@ -146,13 +149,20 @@ export default function EventsPage() {
                   />
                 </div>
 
-                {/* Details - Dates and dividing borders completely removed */}
-                <div className="p-6 flex-1 flex flex-col justify-start text-left">
+                {/* Details */}
+                <div className="p-6 flex-1 flex flex-col justify-between text-left">
                   <div className="space-y-3">
                     <span className="text-[10px] font-bold text-[#d32f2f] uppercase tracking-widest font-['Verdana']">{ev.vertical}</span>
                     <h3 className="text-base font-extrabold text-[#0b192c] uppercase tracking-wide leading-tight">{ev.title}</h3>
                     <p className="text-slate-500 text-xs leading-relaxed">{ev.desc}</p>
                   </div>
+                  
+                  {/* Dynamic Past Venue Indicator: Renders only if past event object contains a venue property */}
+                  {ev.venue && (
+                    <div className="pt-4 border-t border-gray-100 text-[10px] font-bold text-slate-400 mt-6 flex items-center gap-1.5">
+                      <span>📍 {ev.venue}</span>
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
