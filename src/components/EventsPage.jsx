@@ -13,6 +13,17 @@ const events = [
     isUpcoming: true,
     vertical: "Central Events"
   },
+
+  {
+    title: "Climate Change Session",
+    date: "4th Oct, 2026",
+    venue:"Gargi Block (GB-005)",
+    desc: "Inspiring environmental awareness, sustainable action, and collaborative problem-solving among students through an introductory session designed to explore climate change, machine learning solutions, and team initiatives.",
+    image: "climate.jpg",
+    isUpcoming: true,
+    vertical: "Sustainability"
+  },
+
   {
     title: "Essay Writing Competition",
     desc: "Encouraging literary expression, creative vocabulary, and critical writing skills among school students through themed essay challenges designed to spark independent thought and structure.",
