@@ -7,7 +7,6 @@ const events = [
   {
     title: "NSS Intro Talk",
     date: "29th Sept, 2026",
-    venue:"Mac Audi",
     desc: "Fostering civic responsibility, community engagement, and empathetic leadership among first-year students through an introductory talk designed to outline club goals, initiatives, and work life.",
     image: "intro.jpg",
     isUpcoming: false,
@@ -17,7 +16,6 @@ const events = [
   {
     title: "Climate Change Session",
     date: "4th Oct, 2026",
-    venue:"Gargi Block (GB-005)",
     desc: "Inspiring environmental awareness, sustainable action, and collaborative problem-solving among students through an introductory session designed to explore climate change, machine learning solutions, and team initiatives.",
     image: "climate.jpg",
     isUpcoming: false,
