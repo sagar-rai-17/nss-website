@@ -10,7 +10,7 @@ const events = [
     venue:"Mac Audi",
     desc: "Fostering civic responsibility, community engagement, and empathetic leadership among first-year students through an introductory talk designed to outline club goals, initiatives, and work life.",
     image: "intro.jpg",
-    isUpcoming: true,
+    isUpcoming: false,
     vertical: "Central Events"
   },
 
@@ -20,7 +20,7 @@ const events = [
     venue:"Gargi Block (GB-005)",
     desc: "Inspiring environmental awareness, sustainable action, and collaborative problem-solving among students through an introductory session designed to explore climate change, machine learning solutions, and team initiatives.",
     image: "climate.jpg",
-    isUpcoming: true,
+    isUpcoming: false,
     vertical: "Sustainability"
   },
 
