@@ -5,6 +5,15 @@ import React from 'react';
 // =========================================================================
 const events = [
   {
+    title: "Sociothon 2026",
+    date: "24th Oct, 2026",
+    desc: "Driving innovation and eco-conscious problem-solving through Sociothon 2026, a sustainability hackathon focused on developing smart and sustainable waste management solutions to tackle real-world environmental challenges.",
+    image: "sociothon.png",
+    isUpcoming: true,
+    vertical: "Sustainability"
+  },
+
+  {
     title: "NSS Intro Talk",
     date: "29th Sept, 2026",
     desc: "Fostering civic responsibility, community engagement, and empathetic leadership among first-year students through an introductory talk designed to outline club goals, initiatives, and work life.",
